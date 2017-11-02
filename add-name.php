@@ -65,13 +65,13 @@
 	  </nav>
 <div class="container" id="container">
 	<h2 style="color: #9B51E0;">What does your name mean?</h2>
-	<p style="color: #FFCA28;"><strong>Please do not use any punctuation marks within the form.</strong></p>
+	<p style="color: #FBBC05;"><strong>Please do not use any punctuation marks within the form.</strong></p>
 	<form action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
 		<input type="text" name="name" placeholder="Your native name" required>
 		<input type="text" name="state" placeholder="State of Origin e.g. Benue State" required>
 		<input type="text" name="tribe" placeholder="Tribe" required>
 		<input type="text" name="meaning" placeholder="Meaning of name" required>
-		<input type="submit" name="save" class="btn waves-effect waves-light right" value="Save" style="background-color: #FF6663;">
+		<input type="submit" name="save" class="btn waves-effect waves-light right" value="Save" style="background-color: #EA4335;">
 	</form>
 	<div style="margin-top: 8%; color: #9B51E0;">
 		

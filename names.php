@@ -13,6 +13,15 @@
   		nav{
   			background-color: #9B51E0;
   		}
+  		#heading{
+  			color:#9B51E0;
+  			padding-top: 3%;
+  			padding-bottom: 3%;
+  			text-align: center;
+  		}
+  		#first-hr{
+  			margin-bottom: 2%;
+  		}
   	</style>      
 </head>
 <body>
@@ -26,15 +35,17 @@
 	      </ul>
 	    </div>
 	  </nav>
-	<div class="container">
+	
 	<?php if (isset($_GET['status']) && $_GET['status'] == 'success') { ?> 
 	<strong>Thank you for your contribution to this great work. We <span style="color:red;">heart</span> you!</strong>
 	<?php } ?>
-	<h3>This is like a <strong>Dictionary</strong>, but for <strong>Nigerian Names</strong>.</h3>
-	<a href="add-name.php" class="right" style="color: teal;">Didn't find your name? Click here to add it.</a>
+	<h3 id="heading"><strong>Dictionary of Nigerian Names</strong></h3>
+	<hr id="first-hr">
+	<div class="container">
+	<a href="add-name.php" class="right" style="color: #FF9933;">Didn't find your name? Click here to add it.</a>
 	<form action="search.php" method="GET">
 		<input type="text" name="search" placeholder="SEARCH">
-		<button class="btn waves-effect waves-light right" type="submit" name="submit" style="background-color: #FF6663;">Search
+		<button class="btn waves-effect waves-light right" type="submit" name="submit" style="background-color: #EA4335;">Search
 		<i class="material-icons right">send</i>
 		</button>
 	</form>
