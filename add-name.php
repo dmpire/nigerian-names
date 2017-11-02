@@ -41,7 +41,7 @@
 				padding-left: 50px;
 				padding-top: 30px;
 				padding-bottom: 37px;
-				margin-top: 20px;
+				margin-top: 10px;
 				margin-bottom: 0!important;
 			}
 			h1, p {
